@@ -27,6 +27,6 @@ Ensure the script is executable: `chmod +x build.sh`
 
 Call the script, passing a list of the platforms you want to build, with a space between each one:
 
-`.\build.sh webos www android`
+`./build.sh webos www android`
 
 If you prefer to be in control, check out the other docs in this folder for platform-specific details.
