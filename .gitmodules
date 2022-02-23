@@ -1,3 +1,9 @@
 [submodule "enyo-app/enyo"]
-	path = enyo-app/enyo
-	url = https://github.com/codepoet80/enyo2.git
+	path = enyo
+	url = ../../enyojs/enyo.git
+[submodule "enyo-app/lib/onyx"]
+	path = lib/onyx
+	url = ../../enyojs/onyx.git
+[submodule "enyo-app/lib/layout"]
+	path = lib/layout
+	url = ../../enyojs/layout.git
