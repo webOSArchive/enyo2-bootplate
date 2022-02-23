@@ -1,12 +1,3 @@
-[submodule "enyo"]
-	path = enyo
-	url = ../../enyojs/enyo.git
-[submodule "lib/onyx"]
-	path = lib/onyx
-	url = ../../enyojs/onyx.git
-[submodule "lib/layout"]
-	path = lib/layout
-	url = ../../enyojs/layout.git
-[submodule "enyo-app/enyo2"]
-	path = enyo-app/enyo2
-	url = git@github.com:codepoet80/enyo2.git
+[submodule "enyo-app/enyo"]
+	path = enyo-app/enyo
+	url = https://github.com/codepoet80/enyo2.git
