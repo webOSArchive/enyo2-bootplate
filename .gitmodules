@@ -7,3 +7,6 @@
 [submodule "lib/layout"]
 	path = lib/layout
 	url = ../../enyojs/layout.git
+[submodule "enyo-app/enyo2"]
+	path = enyo-app/enyo2
+	url = git@github.com:codepoet80/enyo2.git
