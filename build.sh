@@ -32,7 +32,7 @@ if [[ $www -eq 0 ]] && [[ $webOS -eq 0 ]] && [[ $android -eq 0 ]] ; then
 fi
 
 if [ $webOS -eq 1 ]; then
-    echo "Building for webOS..."
+    echo "Building for LuneOS/webOS..."
     rm -rf $mydir/bin/*.ipk
     rm -rf $mydir/bin/www/*
     cp $mydir/cordova-webos.js $mydir/enyo-app/cordova.js -f
