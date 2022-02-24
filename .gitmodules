@@ -4,11 +4,11 @@
 	branch = 2.6.0-pre.4-dev
 
 [submodule "enyo-app/lib/onyx"]
-	path = enyo-app/lib
+	path = enyo-app/lib/onyx
 	url = https://github.com/enyojs/onyx.git
-	branch = 2.6.0-pre.4-dev
+	branch = release-2.6.0-rc.2
 
 [submodule "enyo-app/lib/layout"]
-	path = enyo-app/lib
+	path = enyo-app/lib/layout
 	url = https://github.com/enyojs/layout.git
 	branch = 2.6.0-pre.4-dev
