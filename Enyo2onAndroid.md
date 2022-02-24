@@ -13,13 +13,15 @@ At least on Linux systems both versions can co-exist, but after installing Cordo
 
 This website describes managing alternatives: [https://www.fosstechnix.com/install-oracle-java-8-on-ubuntu-20-04/](https://www.fosstechnix.com/install-oracle-java-8-on-ubuntu-20-04/)
 
-## Simple and Automated
+## Build and Deploy
+
+### Simple and Automated
 
 - Create your Enyo app by adding to and modifying the contents of the `enyo-app` folder
 - From the parent folder, use the command line to run `./build.sh android`
 - Install the resulting apk from `bin/` using `adb`
 
-## DIY (Manual)
+### DIY (Manual)
 
 - Create your Cordova project the standard way:
     - eg: `cordova create hello com.example.hello HelloWorld`
