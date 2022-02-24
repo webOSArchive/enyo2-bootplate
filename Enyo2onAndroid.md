@@ -1,8 +1,17 @@
 # Enyo2 on Android with Cordova
 
+## Notes
+
+### CORS
 Be aware Cordova uses WebView on Android, and is unable to circumvent its CORS restrictions.
 If you want to call a web service from your app, you'll need to add the appropriate CORS
 headers (if you control the service) or come up with a work-around (if you don't control the service).
+
+### JAVA
+The Android SDK and modern Cordova use a different version of JAVA than the webOS SDK requires. 
+At least on Linux systems both versions can co-exist, but after installing Cordova, you need to set the default back to the older JDK.
+
+This website describes managing alternatives: [https://www.fosstechnix.com/install-oracle-java-8-on-ubuntu-20-04/](https://www.fosstechnix.com/install-oracle-java-8-on-ubuntu-20-04/)
 
 ## Simple and Automated
 
