@@ -35,4 +35,4 @@ This website describes managing alternatives: [https://www.fosstechnix.com/insta
 
 ## Debugging
 
-Depending on your target MACHINE, you may be able to use Chrome to remotely debug. Obtain the IP address of the device you install to, and visit http://<DEVICEIP>:1122 in Chrome.
+Depending on your target MACHINE, you may be able to use Chrome to remotely debug. Obtain the IP address of the device you install to, and visit `http://<DEVICEIP>:1122` in Chrome.

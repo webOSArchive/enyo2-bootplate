@@ -13,6 +13,10 @@ to ensure that all the subfolders are downloaded.
 Remove the `.git` folder to detach your local folder from the bootplate git repo
 so that you can customize the contents for your own app (and add to your own repo)
 
+## Dependencies
+
+Each platform you want to target has its own dependencies and quirks. Check out the other docs in this folder for platform-specific details.
+
 ## Use
 
 The bootplate provides a folder structure and app template to allow you to develop
