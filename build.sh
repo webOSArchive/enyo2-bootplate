@@ -3,6 +3,16 @@
 mydir=$(cd `dirname $0` && pwd)
 mkdir $mydir/bin/ -p
 
+if [ "$1" = "clean" ]; then
+    echo -n "Cleaning up..."
+    rm -rf $mydir/bin/*.ipk
+    rm -rf $mydir/bin/www/*
+    rm -rf $mydir/enyo-app/deploy/*
+    rm -rf $mydir/enyo-app/build/*
+    echo "Done!"
+    exit
+fi
+
 www=0
 webOS=0
 android=0
@@ -32,6 +42,7 @@ if [[ $www -eq 0 ]] && [[ $webOS -eq 0 ]] && [[ $android -eq 0 ]] ; then
     echo "No build target specified"
     echo "Allowed: webos luneos www android"
     echo "(or any combination)"
+    echo "Or to clean-up all build folders, you can pass: clean"
     exit
 fi
 
