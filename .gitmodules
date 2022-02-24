@@ -1,14 +1,14 @@
 [submodule "enyo-app/enyo"]
 	path = enyo-app/enyo
 	url = https://github.com/enyojs/enyo.git
-	branch = 2.6.0-pre.4-dev
+	branch = 2.5.1-release
 
 [submodule "enyo-app/lib/onyx"]
 	path = enyo-app/lib/onyx
 	url = https://github.com/enyojs/onyx.git
-	branch = release-2.6.0-rc.2
+	branch = 2.5.1-release
 
 [submodule "enyo-app/lib/layout"]
 	path = enyo-app/lib/layout
 	url = https://github.com/enyojs/layout.git
-	branch = 2.6.0-pre.4-dev
+	branch = 2.5.1-release

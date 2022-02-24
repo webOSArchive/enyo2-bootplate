@@ -6,6 +6,7 @@ mkdir $mydir/bin/ -p
 www=0
 webOS=0
 android=0
+verbose=
 for arg in "$@"; do
     if [ "$arg" = 'webos' ]; then
         webOS=1
@@ -22,6 +23,9 @@ for arg in "$@"; do
     if [ "$arg" = 'web' ]; then
         www=1
     fi
+    if [ "$arg" = '-v' ]; then
+        verbose="-v"
+    fi
 done
 
 if [[ $www -eq 0 ]] && [[ $webOS -eq 0 ]] && [[ $android -eq 0 ]] ; then
@@ -36,11 +40,11 @@ if [ $webOS -eq 1 ]; then
     rm -rf $mydir/bin/*.ipk
     rm -rf $mydir/bin/www/*
     cp $mydir/cordova-webos.js $mydir/enyo-app/cordova.js -f
-    $mydir/enyo-app/tools/deploy.sh -w
+    $mydir/enyo-app/tools/deploy.sh -w $verbose
     mv $mydir/enyo-app/deploy/bin/*.ipk $mydir/bin/
 else
     echo "Building for www..."
-    $mydir/enyo-app/tools/deploy.sh
+    $mydir/enyo-app/tools/deploy.sh $verbose
 fi
 
 if [ $android -eq 1 ]; then
