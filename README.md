@@ -22,6 +22,9 @@ Each platform you want to target has its own dependencies and quirks. Check out 
 The bootplate provides a folder structure and app template to allow you to develop
 Enyo2 apps for a variety of platforms including legacy webOS, LuneOS, Android and the web.
 
+This project exists to allow apps to run on old *and* new devices, but can't prevent you
+from using modern web features that won't work on older devices -- QA is up to you!
+
 You create your app by modifying and updating the contents of the `enyo-app` folder.
 
 The build script will help you build the app for different platforms. You specify

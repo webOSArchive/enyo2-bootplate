@@ -2,6 +2,10 @@
 
 ## Notes
 
+### Backward Compatibility
+If you want to cross-target other platforms, particularly webOS, ensure you don't use
+modern web features that won't render on older browsers.
+
 ### CORS
 Be aware Cordova uses WebView on Android, and is unable to circumvent its CORS restrictions.
 If you want to call a web service from your app, you'll need to add the appropriate CORS
