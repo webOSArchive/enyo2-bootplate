@@ -4,9 +4,9 @@ This bootplate is a template for a minimal Enyo2 and Onyx web application.
 You would normally use this to setup your local environment then go and modify the
 files to build your own application.
 
-Enyo2 (aka EnyoJS) was an open-source Javascript framework that had its origins on the Palm/HP TouchPad, but was updated for cross-platform through 2015, before being replaced with EnactJS.
+Enyo2 (aka EnyoJS) was an open-source Javascript framework that had its origins on the Palm/HP TouchPad, but was updated for Open WebOS and other platforms through [2018](http://nightly.enyojs.com/enyo-nightly-20180402014451/sampler/dist/), before being replaced with EnactJS.
 
-You can download a Sampler of its capabilities from the [enyo2-sampler](https://github.com/codepoet80/enyo2-sampler) repo, or view it online via [webOS Archive](http://www.webosarchive.com/enyo2sampler).
+This fork stops at version 2.5.1 to maintain compatibility with legacy webOS. You can download a Sampler of its capabilities from the [enyo2-sampler](https://github.com/codepoet80/enyo2-sampler) repo, or view it online via [webOS Archive](http://www.webosarchive.com/enyo2sampler).
 
 You can learn more about legacy webOS at [webOS Archive](http://www.webosarchive.com/) or by exploring my other repos.
 
