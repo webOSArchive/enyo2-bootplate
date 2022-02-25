@@ -2,6 +2,6 @@
 
 /build
 /deploy
-/node_modules
+/cordova-wrapper/node_modules
 /cordova-wrapper/www
 /bin
