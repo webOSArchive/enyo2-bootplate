@@ -1,6 +1,7 @@
+.DS_Store
 
 /build
 /deploy
 /node_modules
-/cordova-app/www
+/cordova-wrapper/www
 /bin
