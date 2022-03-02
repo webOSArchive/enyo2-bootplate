@@ -63,6 +63,7 @@ if [ $android -eq 1 ]; then
     rm -rf $mydir/bin/*.apk
     dirname=$mydir/cordova-wrapper
     cd $mydir/cordova-wrapper
+    mkdir $mydir/cordova-wrapper/www -p
     cordova platform add android
     echo "Copying to Cordova..."
     cp $mydir/enyo-app/deploy/* $mydir/cordova-wrapper/www -R
